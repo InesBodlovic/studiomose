@@ -4,7 +4,7 @@
     "currentPage": "index.html",
     "versionFirst": "4.4.0",
     "uniqCompNum": 34,
-    "versionPublish": "4.4.0",
+    "versionPublish": "4.6.6",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -37,7 +37,9 @@
     "favicon": "",
     "noImageResize": "true",
     "path": "@PROJECT_PATH@",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-115319842-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-115319842-1');\r\n</script>\r\n",
+    "siteUrl": "undefined"
   },
   "pages": {
     "index.html": {
@@ -579,11 +581,11 @@
           "_name": "content4",
           "_customHTML": "<section class=\"mbr-section content4\" group=\"Article\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 col-md-8\">\n                <h2 mbr-if=\"showTitle\" class=\"align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\"><b>\n                    STUDIO MOSE</b></h2>\n                <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-4\">Studio mose is a Ghent based art and styling studio founded in September 2017. &nbsp;We support ethical, handmade, and thrifted fashion. By thrifting clothes you are not supporting the fastfashion industry (Zara, H&amp;M, Berschka...) and thereby not supporting cruelty. Cruelty towards our planet (massive pollution). You are also not supporting bad working conditions and child labour. Know what you vote for with your money, because by buying at those shops means supporting them and all the horrible things they don't want you to know. Together we can make a change, thrift and still look damn good! I know it's amazing how cheap these shops are, especially for those who don't have a big budget and want to look trendy. But clearly someone is paying for it: the people/children who work for these corporate companies. Just think about who you want to support with your money. This doesn't mean you have to shop at expensive brands, this means you have to do your research about these fast fashion companies, what they do and what kind of working conditions you are supporting. Also, just shop less and be more creative: swap with friends, go thrifting or adjust your clothes and maybe buy a book or CD instead if you really have the urge to satisfy your shopaholic needs. I truly care and that doesn't mean that you have to care as well I just hope to inspire people who also care more about lives than looks.&nbsp;<br>Every month I put our newest secondhand and vintage finds online in an editorial format. The pictures, casting, styling and artistic direction are done by me. You can find us on <a href=\"https://www.instagram.com/studiomose/\">Instagram</a>&nbsp;to place a bid on your favorite pieces, bidding can be done for 24h. The highest bid receives an invoice and pays within the hour. Have fun!</h3>\n                <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">\n                    <a class=\"btn btn-primary\" href=\"https://mobirise.com\">LEARN MORE</a>\n                    <a class=\"btn btn-black-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "qAN1Tguhls",
+          "_anchor": "content4-x",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content4-x"
+          "_params": {}
         },
         {
           "_styles": {
